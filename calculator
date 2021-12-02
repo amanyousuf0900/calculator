@@ -1,0 +1,22 @@
+a = int(input())
+b = int(input())
+def addition(num1,num2):
+  ans = num1+num2
+  print("the addition will be ",ans)
+addition(a,b)
+def subtraction(num1,num2):
+  ans = num1 - num2 
+  print("the subtraction will be ",ans)
+subtraction(a,b)
+def multiplication(num1,num2):
+  ans = num1*num2
+  print("the multiplication will be ",ans)
+multiplication(a,b)
+def division(num1,num2):
+  ans = num1/num2
+  print("the division will be ",ans)
+division(a,b)
+def remainder(num1,num2):
+  ans = num1%num2
+  print("the remainder will be ",ans)
+remainder(a,b)
